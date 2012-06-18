@@ -336,9 +336,8 @@ iab iidate <c-r>=strftime("20%y年%m月%d日 %H:%M:%S")<cr>
 
 
 " Keybindings for plugin toggle
-nmap <F5> :TagbarToggle<cr>
-nmap <F6> :NERDTreeToggle<cr>
-nmap <F3> :GundoToggle<cr>
+nnoremap <F6> :NERDTreeToggle<cr>
+nnoremap <F3> :GundoToggle<cr>
 
 
 " Tagbar
