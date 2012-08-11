@@ -370,4 +370,4 @@ let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
 let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
-let NERDTreeWinPos = "right"
+let NERDTreeWinPos = "left"
