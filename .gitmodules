@@ -82,3 +82,6 @@
 [submodule "bundle/Gundo"]
 	path = bundle/Gundo
 	url = https://github.com/vim-scripts/Gundo.git
+[submodule "bundle/template"]
+	path = bundle/template
+	url = https://github.com/vim-scripts/template.vim.git

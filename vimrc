@@ -363,11 +363,16 @@ if executable('coffeetags')
         \ }
 endif
 
-" Nerd Tree 
-let NERDChristmasTree=0
+" Nerd Tree
+autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" autocmd vimenter * if !argc() | NERDTree | endif
+
+let NERDChristmasTree=1
 let NERDTreeWinSize=30
 let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
 let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
 let NERDTreeWinPos = "left"
+let NERDTreeMouseMode=1
