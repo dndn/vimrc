@@ -365,7 +365,7 @@ if executable('coffeetags')
 endif
 
 " Nerd Tree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 " autocmd vimenter * if !argc() | NERDTree | endif
 
